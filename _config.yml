@@ -1,9 +1,9 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              apase
+bio:                "This is the bio text."
+description:        "This is the description text."
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Comments
@@ -17,8 +17,8 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
+location:           Dresden, GER
+phone:              1220
 email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
