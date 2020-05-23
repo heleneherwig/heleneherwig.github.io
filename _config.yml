@@ -1,68 +1,24 @@
-# Site
-title:              apase
-bio:                "This is the bio text."
-description:        "This is the description text."
-locale:             en_US
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title:              Clean Blog
+email:              your-email@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://blackrockdigital.github.io"
 
-# Comments
-disqus_shortname:   default
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    BlackrockDigital
+facebook_username:  StartBootstrap
+linkedin_username:
 
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-# personal
-location:           Dresden, GER
-phone:              1220
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
-
-# Other
-background_image:   /images/bg.jpg
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
-
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
-
-# Jekyll
-permalink:          /blog/:title/
+# Build settings
 markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
   - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
