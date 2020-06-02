@@ -1,15 +1,13 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://blackrockdigital.github.io"
+title:              apase
+description:        "- apase (lat. apasus), noun, feminine, a|pa|se, /ʌpʌzɘ/, adjective: apasing"
+author:             Helene Herwig
+baseurl:            "/"
+url:                "https://heleneherwig.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
+soundcloud_username: hell_jaa
+instagram_username:  therealapase
+twitter_username:    hehe_29
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
